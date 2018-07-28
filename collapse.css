@@ -1,0 +1,70 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-link{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid whitesmoke;
+    width: 90vw;
+    margin: auto;
+    align-self: center;
+    padding: 2vw;
+    background: whitesmoke;
+    color: blue;
+    font-size: 2em;
+
+}
+.card-body{
+    border: 1px solid whitesmoke;
+    background: white;
+    width: 90vw;
+    font-size: 1em;
+
+}
+input:focus{
+    outline: none;
+}
+button:hover{
+    background: white;
+}
+button:focus{
+    outline: none;
+}
+@media only screen and (min-width: 300px) {
+    .collapse{
+        font-size: 1.2em;
+    }
+    .btn-link{
+        font-size: 1.5em ;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .collapse{
+        font-size: 1em;
+    }
+    .btn-link{
+        font-size: 1.5em ;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .collapse{
+        font-size: 1.5em;
+    }
+    .btn-link{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .collapse{
+        font-size: 1.5em;
+    }
+    .btn-link{
+        font-size: 2em;
+    }
+
+}
